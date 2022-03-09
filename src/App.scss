@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+
+  $main-bg-color: rgba(255, 255, 255, 0.993);
+  $main-fg-color: rgba(0, 0, 0, 255);
+  $nav-link-color: rgba(20, 20, 20, 255);
+
+  $light-color: #7a7a7a;
+
+
+body {
+  background-color: $main-bg-color;
+  color: $main-fg-color
+}
+
+.section-separator {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+
+  span {
+    background: $main-bg-color;
+    padding:0 10px;
+  }
+}
+
+.service {
+  margin: 1rem;
+  max-width: 250px;
+  background-color: #ebebeb;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow:2px 2px 4px #ababab;
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+  .service-title-1 {
+    width: 100%;
+    text-align: center;
+    color: #7a7a7a8c;
+    font-size: 1.4rem;
+
+  }
+  .service-title-2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: solid 1px #c2c2c28c;
+    margin-bottom: 1rem;
+  }
+  .service-description {
+    color: $light-color;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  img {
+    margin-top: 1rem;
+    border-radius: 1rem;
+  }
+}
