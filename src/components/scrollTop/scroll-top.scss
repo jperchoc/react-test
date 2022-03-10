@@ -1,0 +1,15 @@
+.scrollTop {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    box-shadow: 2px 2px 4px #ddd;
+    border-radius: 100%;
+    padding: 5px;
+
+
+    a {
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
