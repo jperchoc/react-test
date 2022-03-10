@@ -6,15 +6,15 @@ import ExpresshImg from '../../img/landing-chien.png';
 import CarteImg from '../../img/spitz-allemand.jpg';
 
 
-export default function Gallery() {
+export default function Galery() {
     const getRandomImage = () => {
         const items = [GroomImg, BathImg, ExpresshImg, CarteImg]
         return items[Math.floor(Math.random()*items.length)];
     }
     const ROWS = 4;
-    const COLS = 4;
+    const COLS = 2;
     return <>
-        <SectionSeparator>Gallerie</SectionSeparator>
+        <SectionSeparator>Galerie</SectionSeparator>
         <div className="row">
             <div className="col">
                 {[...Array(ROWS)].map(() => 
